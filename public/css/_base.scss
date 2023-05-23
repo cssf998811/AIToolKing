@@ -1,5 +1,12 @@
 // 全站設定
+* {
+  // outline: 1px solid red;
+  color: $text-color;
+  font-family: $text-family;
+  font-weight: $text-normal;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
 body {
   background-color: $background-color;
-  color: $text-color;
 }

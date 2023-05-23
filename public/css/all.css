@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -308,4 +309,54 @@ template {
    */
 [hidden] {
   display: none;
+}
+
+* {
+  color: #fff;
+  font-family: "Noto Sans TC";
+  font-weight: 400;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #020202;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+.navbar .logo {
+  width: 245px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.navbar .logo .logo-img {
+  max-width: 100%;
+}
+.navbar .navbar-nav {
+  display: flex;
+  padding-left: 0;
+}
+.navbar .navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+  width: 32px;
+  height: 48px;
+  list-style: none;
+  margin-left: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  text-decoration: none;
 }/*# sourceMappingURL=all.css.map */

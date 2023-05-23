@@ -1,0 +1,37 @@
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+// header-section
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  .logo {
+    width: 245px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    .logo-img {
+      max-width: 100%;
+    }
+  }
+  .navbar-nav {
+    display: flex;
+    padding-left: 0;
+    .nav-item {
+      display: flex;
+      align-items: center;
+      width: 32px;
+      height: 48px;
+      list-style: none;
+      margin-left: 20px;
+      .nav-link {
+        font-weight: $text-bold;
+        text-decoration: none;
+      }
+    }
+  }
+}

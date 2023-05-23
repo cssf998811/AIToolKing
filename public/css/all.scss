@@ -1,9 +1,8 @@
 @import "variable";
 @import "normalize";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
 
 // 全站設定
 @import "base";
-// mixin
-@import "mixin";
 // 主要css
 @import "main";
