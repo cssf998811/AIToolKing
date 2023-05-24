@@ -4,9 +4,14 @@
   color: $text-color;
   font-family: $text-family;
   font-weight: $text-normal;
+  font-size: $text-size;
   box-sizing: border-box;
   line-height: 1.5;
 }
 body {
   background-color: $background-color;
+}
+img{
+  // display: block;
+  vertical-align: bottom;
 }
